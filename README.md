@@ -12,12 +12,12 @@ Steps to Execute testcases:<br>
     &emsp; c. Select + option at the top of the config window.<br>
     &emsp; d. Select Python test ->> Py.test from the dropdown.<br>
     &emsp; e. Select project directory in right side of the window.<br>
-    &emsp; f. Enter Keyword as validate_db and click apply and ok<br>
+    &emsp; f. Enter Keyword as validate_dob and click apply and ok<br>
     &emsp; G. Select the Run optoin from the top.<br>
     &emsp; To run the command from command prompt.<br>
     &emsp; a. Navigate to the Checkout directory.<br>
     &emsp; b. Run below command.<br>
-    &emsp; pytest --config config.ui_config -k validate_db<br>
+    &emsp; pytest --config config.ui_config -k validate_dob<br>
     
 The above command will also be used in Jenkins job.<br>
 Additional parameter that can be used in jenkins job are "--html=index.html --self-contained-html  --cucumberjson=report.json --cucumberjson-expanded"<br>
